@@ -19,10 +19,9 @@ header {
 
 header h1 {
     font-weight: bold;
-    margin: 13px 0px 0px 15px;
-    font-size: 36px;
+    margin: 17px 0px 0px 15px;
+    font-size: 26px;
     color: white;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 header a {
@@ -52,7 +51,7 @@ header nav ul li a {
 .centered  {
     position: absolute;
     top: 30%;
-    font-size: 260px;
+    font-size: 230px;
     font-family:Arial, Helvetica, sans-serif;
 }
 .hero {
@@ -68,67 +67,99 @@ header nav ul li a {
     background-attachment: fixed;
 }
 
-.image {
+.image img {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    width: 40%;
-    margin: 10px 0px;
+    margin: 15px 13px;
     padding: 10px;
     background-color: black;
+    flex: 1;
+    height: 250px;
 }
 
 .container {
     padding: 2px 16px;
 }
 
-.about-me h3 {
+/* .about-me h1 {
     font-size: 28px;
-}
+} */
 
 .flex-row {
     display: flex;
 }
 
+.about-me {
+    font-family: helvetica;
+    font-weight: bolder;
+    color: black;
+    font-size: 30px;
+    background-color: burlywood;
+    text-align: left;
+    vertical-align: middle;
+    padding: 1px 16px;
+    width: 26%;
+    margin: 12px;
+}
+
+.about-me-text {
+    block-size: 150px;
+    writing-mode: horizontal-tb;
+    padding: 1px 16px;
+    width: 93%;
+    font-size: 20px;
+}
+.work-title {
+    font-family: helvetica;
+    font-weight: bolder;
+    color: black;
+    font-size: 30px;
+    background-color: burlywood;
+    text-align: left;
+    vertical-align: middle;
+    padding: 1px 16px;
+    width: 11%;
+    margin: 18px 4px -5px 13px;
+}
 .run-buddy {
-    width: 100%;
-    margin: 10px 0px;
-    padding: 5px;
+    width: 96%;
+    margin: 18px 4px -5px 13px;
+    padding: 6px;
     background-color: black;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: left;
-    align-items: center;
-    list-style: none;
+    
 }
 
 .run-buddy h2 {
-    width: 50%;
-    margin: 0;
+    font-family: helvetica;
+    font-weight: bolder;
     color: white;
-}
-
-.secondary-applications {
-    width: 100%;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    font-size: 20px;
+    text-align: left;
+    vertical-align: middle;
+    padding: 1px 0px 19px 1px;
 }
 
 .secondary-application {
-    margin: 20px;
+    margin: 13px;
     flex: 1;
     background: #20b2aa;
     color: white;
 }
 
 .secondary-application img {
-    width:100%;
+    height: 130px;
+    width:213px;
 }
 
-/* .horiseon h2 {
-    width: 50%;
-    margin: 0;
-} */
+.caption-horiseon,
+.application-title {
+    font-family: helvetica;
+    font-weight: bolder;
+    color: white;
+    font-size: 15px;
+    text-align: left;
+    vertical-align: middle;
+    margin: 14px;
+}
 
 .footer {
     display: flex;
@@ -136,15 +167,20 @@ header nav ul li a {
 }
 
 .footer-wrapper {
-    padding: 1px;
-    left: 0;
-    bottom: 0;
-    width: 100%;
     background-color: black;
-    color: black;
-    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
 }
 
+.contact {
+    font-weight: bold;
+    margin: 3px 0px 0px 15px;
+    font-size: 26px;
+    color: white;
+}
 footer a {
     color: whitesmoke;
 }
@@ -152,7 +188,7 @@ footer a {
 footer ul {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     list-style: none;
 }
@@ -161,5 +197,6 @@ footer ul li a {
     padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 10px 15px;
+    font-weight: lighter;
 }
