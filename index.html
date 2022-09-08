@@ -6,13 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css">
-    <title>Document</title>
+    <title>Portfolio</title>
 </head>
 
 <body>
+    <!-- header starts -->
     <header>
         <h1>
-            <a href="/">Portfolio</a>
+            <a href="/">Bethany Jennings</a>
         </h1>
         <nav>
             <ul>
@@ -26,86 +27,99 @@
                     <a href="#contact">Contact</a>
                 </li>
                 <li>
-                    <a href="#resume">Resume</a>
+                    <a href="bjennings-resume-2022.pdf" target="blank">Resume</a>
                 </li>
             </ul>
         </nav>
     </header>
+    <!-- header ends -->
 
+    <!-- hero -->
     <div class="hero">
         <div class="centered">Portfolio.</div>
     </div>
     <div class="flex-row">
-    <section class="image">
-        <img src="./css/images/Resume_Photo.JPG" alt="Image of me at a restaurant." style="width:70%" />
-    </section>
-    <div class="container">
-        <h3 class="about-me">About Me</h3>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet perferendis dolores ducimus culpa dignissimos natus dicta esse ea, 
-            atque ut rerum corrupti praesentium deleniti eaque, reprehenderit tempore, dolore illo! Commodi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-            Animi dolorum omnis natus eveniet vitae. Doloribus enim excepturi molestias, suscipit expedita officia voluptas fugiat perspiciatis esse vitae temporibus. 
-            Esse, quisquam fugiat! Lorem ipsum dolor sit amet. 
-        </p>
-    </div>
-    </div>
+        <!-- hero ends -->
 
-    <section class="work">
-            <div class="run-buddy">
+        <!-- About Me starts -->
+        <section id="about-me" class="image">
+            <img src="./css/images/Resume_Photo.JPG" alt="Image of me at a restaurant." />
+        </section>
+        <div class="container" style="flex: 2;">
+            <div class="about-me">// About Me</div>
+            <p class="about-me-text">
+                Hello! I'm a full stack web developer based in Houston,TX. I have a diverse set of skills that include
+                html 5, CSS, JavaScript and Git with a background in Graphic Design. Developing websites is my passion.
+                I live and breath creativity and love to learn and grow in my field.
+            </p>
+        </div>
+    </div>
+    <!-- About Me ends-->
+
+    <!-- work starts -->
+    <section id="my-work" class="work">
+        <div class="work-title">// Work</div>
+        <div class="run-buddy">
+            <a href="https://bjennings90.github.io/run-buddy/">
                 <img src="./css/images/run-buddy-image.png" alt="Image of run buddy webpage header."
-                    style="width: 100%" />
-                <h2 class="run-buddy">Run Buddy Application</h2>
-            </div>
+                    style="width: 100%">
+            </a>
+            <h2 class="run-buddy">Run Buddy Application</h2>
+        </div>
     </section>
     <div>
         <div class="flex-row">
-        <div class="secondary-applications">
             <article class="secondary-application">
-                <img src="./css/images/Horiseon-image.png" alt="Image of horiseon webpage." />
-                <h3 class="application-title">Horiseon Application</h3>
+                <a href="https://bjennings90.github.io/Refactor-Challenge/">
+                    <img src="./css/images/Horiseon-image.png" alt="Image of horiseon webpage.">
+                </a>
+                <h3 class="caption-horiseon">Horiseon Application</h3>
             </article>
+
+
+            <article class="secondary-application">
+                <a href="https://bjennings90.github.io/Portfolio/">
+                    <img src="./css/images/mood-flix-screenshot-hover.jpg" alt="Group Project MoodFlix" />
+                </a>
+                <h3 class="application-title">MoodFlix Application</h3>
+            </article>
+
+
+            <article class="secondary-application">
+                <a href="https://art-garage-app.herokuapp.com/">
+                    <img src="./css/images/art-garage-screenshot.jpg" alt="Group Project Art Garage" />
+                </a>
+                <h3 class="application-title">Art Garage Application</h3>
+            </article>
+
+
+            <article class="secondary-application">
+                <img src="./css/images/placeholder_image_3.png" alt="placeholder" />
+                <h3 class="application-title">Placeholder Application</h3>
+            </article>
+
         </div>
-
-    <div class="secondary-applications">
-        <article class="secondary-application">
-            <img src="./css/images/placeholder_image.png" alt="placeholder" />
-            <h3 class="application-title">Placeholder Application</h3>
-        </article>
     </div>
+    <!-- work ends -->
 
-    <div class="secondary-applications">
-        <article class="secondary-application">
-            <img src="./css/images/placeholder_image_2.png" alt="placeholder" />
-            <h3 class="application-title">Placeholder Application</h3>
-        </article>
-    </div>
-
-    <div class="secondary-applications">
-        <article class="secondary-application">
-            <img src="./css/images/placeholder_image_3.png" alt="placeholder" />
-            <h3 class="application-title">Placeholder Application</h3>
-        </article>
-    </div>
-
-</div>
-    </div>
-
+    <!-- footer starts-->
     <footer>
-        <div class="footer-wrapper">
+        <div id="contact" class="footer-wrapper">
+            <h2 class="contact">Contact</h2>
             <ul>
                 <li>
-                    <a href="#610-636-9992">610.636.9992</a>
+                    <a href="https://github.com/bjennings90">Git</a>
                 </li>
                 <li>
-                    <a href="#email">bethany.jennings13@gmail.com</a>
+                    <h2>bethany.jennings13@gmail.com</h2>
                 </li>
                 <li>
-                    <a href="#repo-link">https://github.com/bjennings90</a>
+                    <h2>610.636.9992</h2>
                 </li>
             </ul>
         </div>
     </footer>
-
+    <!-- footer ends -->
 </body>
 
 </html>
